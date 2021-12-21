@@ -5,6 +5,9 @@
 }
 body {
   font-family: 'Roboto', sans-serif;
+  color: #212121
+  letter-spacing: 0.03em;
+  ;
 }
 
 .list {
@@ -18,7 +21,7 @@ body {
 /* -----header---- */
 
 .header-logo-web {
-  font-family: Raleway;
+  font-family: 'Raleway', sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 26px;
@@ -31,7 +34,7 @@ body {
 }
 
 .header-logo-studio {
-  font-family: Raleway;
+  font-family: 'Raleway', sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 26px;
@@ -68,7 +71,7 @@ body {
 .header-mail:hover {
   color: var(--blue-color);
 }
-.header-tel:hover {
+.contakt-tel:hover {
   color: var(--blue-color);
 }
 
@@ -88,6 +91,18 @@ body {
   text-transform: uppercase;
 
   color: #ffffff;
+}
+
+.hero-order-btn {
+  width: 200px;
+  height: 50px;
+  left: 700px;
+  top: 430px;
+
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  cursor: pointer;
 }
 .info-titele {
   display: none;
@@ -192,7 +207,7 @@ body {
 }
 
 .footer-mail,
-.footer-tel {
+.basement-tel {
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
@@ -222,6 +237,7 @@ body {
 .button-menu:focus,
 .button-menu:hover {
   color: #ffffff;
+  cursor: pointer;
 }
 
 .portfolio-list-titele {
