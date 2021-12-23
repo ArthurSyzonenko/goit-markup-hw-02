@@ -60,7 +60,7 @@ body {
 }
 
 .header-mail,
-.header-tel {
+.contact-tel {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -71,7 +71,7 @@ body {
 .header-mail:hover {
   color: var(--blue-color);
 }
-.contakt-tel:hover {
+.contact-tel:hover {
   color: var(--blue-color);
 }
 
@@ -103,6 +103,16 @@ body {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   cursor: pointer;
+  font-size: 16px;
+line-height: 1.87;
+/* identical to box height, or 187% */
+
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+
+color: #FFFFFF;
 }
 .info-titele {
   display: none;
